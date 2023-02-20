@@ -1,3 +1,12 @@
+### WebRTC SDK 1.x deprecation
+
+Following the major release of our new RTC SDK 2.0, we are deprecating the SDK 1.x releases. The SDK 1.x will be out of
+service on **31/10/2023**. All new WebRTC customers must use the SDK 2.x, and customers still using SDK 1.x must migrate
+to the newer release before the end of service date. 
+
+To migrate from RTC SDK 1.x to 2.x, consult our
+[migration guides](https://github.com/infobip/infobip-rtc-ios/wiki/Migration-overview).
+
 ### Introduction
 
 Infobip RTC is an iOS SDK which enables you to take advantage of Infobip platform, giving you the ability to enrich your
@@ -33,12 +42,12 @@ pod 'InfobipRTC'
 To install newly added dependencies, simply run `pod install`.
 
 If you want to install our SDK using Swift Package Manager, add the Github repository 
-`https://github.com/infobip/infobip-rtc-ios/` as a Swift Package. 
+`https://github.com/infobip/infobip-rtc-ios-1.x-deprecated/` as a Swift Package. 
 
 If you want to use Carthage dependency manager, add these dependencies to your Cartfile:
 
 ```ogdl
-github "infobip/infobip-rtc-ios" ~> 1.3.0
+github "infobip/infobip-rtc-ios-1.x-deprecated" ~> 1.7.0
 binary "https://rtc.cdn.infobip.com/webrtc/ios/releases.json" >= 1.0.36302
 ```
 
